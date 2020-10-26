@@ -10,6 +10,7 @@ Swagger
 Entity Framework Core 3.1
 MediatR
 AutoMapper
+Flurl
 
 #### Features
 
@@ -23,3 +24,4 @@ Auth0 Authentication Through JWT
 Policy Based Authorization
 Custom Exception Handling Middlewares
 AutoMapper
+Communication with external APIs through Flurl
