@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Application.DTOs.Gym;
 using Application.Features.Gym.Commands.CreateGym;
@@ -8,9 +7,7 @@ using Application.Features.Gym.Commands.DeleteGym;
 using Application.Features.Gym.Commands.UpdateGym;
 using Application.Features.Gym.Queries.GetAllGyms;
 using Application.Features.Gym.Queries.GetGymById;
-using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using WebApi.Controllers.Helpers;
